@@ -1,0 +1,39 @@
+body{
+  background-color: blue;
+  animation-name: background-color-change;
+  animation-duration: 8s;
+  animation-duration: infinite;
+  font-size: 50px;
+}
+
+@keyframes background-color-change {
+  0% {background-color: blue;}
+  15% {background-color: red;}
+  30% {background-color: green;}
+  45% {background-color: yellow;}
+  60% {background-color: orange;}
+  75% {background-color: navy;}
+  90% {background-color: darkgreen;}
+  100% {background-color: magenta;}
+}
+
+@keyframes color-change {
+  0% {color: navy;}
+  15% {color: magenta;}
+  30% {color: red;}
+  45% {color: blue;}
+  60% {color: darkgreen;}
+  75% {color: green;}
+  90% {color: orange;}
+  100% {color: red;}
+}
+
+.kratom{
+  text-align: center;
+  margin-left: auto;
+  margin-right: left;
+  color: navy;
+  animation-name: color-change;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
